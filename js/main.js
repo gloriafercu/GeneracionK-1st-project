@@ -1,10 +1,9 @@
 'use strict';
 
-var buttonAdd    = document.querySelector('.add');
+var buttonAdd = document.querySelector('.add');
 var buttonRemove = document.querySelector('.remove');
-var list1        = document.querySelector('.list1');
-var list2        = document.querySelector('.list2');
-
+var list1 = document.querySelector('.list1');
+var list2 = document.querySelector('.list2');
 
 function addUserList() {
     list2.innerHTML = list1.innerHTML;
